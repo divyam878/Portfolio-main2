@@ -25,6 +25,11 @@ export const Bio = {
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         {
+          name: "Next Js",
+          image:
+            "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+        },
+        {
           name: "Redux",
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -43,6 +48,11 @@ export const Bio = {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png",
         },
         {
           name: "Bootstrap",
@@ -100,6 +110,11 @@ export const Bio = {
             "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         },
         {
+          name: "Prisma",
+          image:
+            "https://seeklogo.com/images/P/prisma-logo-3805665B69-seeklogo.com.png",
+        },
+        {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
@@ -115,7 +130,11 @@ export const Bio = {
           image:
             "https://www.svgrepo.com/show/354202/postman-icon.svg",
         },
-       
+        {
+          name: "Clerk",
+          image:
+            "https://images.clerk.com/static/logo-light-mode-400x400.png",
+        },
         {
           name: "Google Apps Script",
           image:
@@ -139,7 +158,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://www.nesscoindia.com/assets/images/logo.webp",
+      img: "https://pbs.twimg.com/profile_images/1331496488417984514/PfCDFZcg_400x400.jpg",
       role: "Associate Software Developer",
       company: "Nessco India Pvt. Ltd.",
       date: "Dec 2022 - Present",
@@ -240,6 +259,47 @@ export const Bio = {
   
   export const projects = [
     {
+      id: 14,
+      title: "Trip Management React App",
+      date: "Mar 2024 - April 2024",
+      description: "I developed a Trip Management System using React.js for the front end and MongoDB along with Google Apps Script for the back end. The system features a robust three-tier approval workflow involving HoD, HR, and accounts. Employee modules facilitate trip planning, payment tracking, and expense entry. The system generates comprehensive expense reports and offers user-friendly dashboards for better oversight. Automated processes and notifications enhance efficiency, contributing to effective trip management and transparent expense reporting. This modernized approach leverages React.js and MongoDB to provide a seamless and responsive user experience.",
+
+      image:
+        "https://i.imgur.com/4TdTYw2.png",
+        tags: [        
+          "React Js",
+          "MongoDb",
+          "Node Js",
+          "Express Js",
+          "Google app scripts",
+          
+        ],
+      category: "web app",
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 13,
+      title: "Form Builder",
+      date: "Mar 2024 - April 2024",
+      description:
+        "I developed a form builder application using Next.js and TypeScript, with Prisma for storing user information. The app features a drag-and-drop interface for creating forms, allowing users to easily design their own forms. Once a form is created, users can share a link to their form and view submissions on a comprehensive dashboard. The application includes authentication via Clerk, ensuring secure access to user-specific features and data. This versatile tool simplifies form creation and management, making it accessible and efficient for all users.",
+      image:
+        "https://i.imgur.com/6Vmh7Cs.png",
+      tags: [        
+        "Next Js",
+        "MySQL",
+        "Node Js",
+        "Express Js",
+        "Prisma",
+        "Clerk",
+        "git",
+      ],
+      category: "web app",
+      github: "",
+      webapp: "",
+    },
+    {
       id: 9,
       title: "Trip Management",
       date: "Sept 2023 - Dec 2023",
@@ -278,6 +338,7 @@ export const Bio = {
       github: "",
       webapp: "",
     },
+   
     {
       id: 11,
       title: "Breast Cancer Prediction",
@@ -459,10 +520,10 @@ export const Bio = {
     
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];
+  // export const TimeLineData = [
+  //   { year: 2017, text: "Started my journey" },
+  //   { year: 2018, text: "Worked as a freelance developer" },
+  //   { year: 2019, text: "Founded JavaScript Mastery" },
+  //   { year: 2020, text: "Shared my projects with the world" },
+  //   { year: 2021, text: "Started my own platform" },
+  // ];
