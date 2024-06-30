@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/divyam878",
     resume:
-      "https://drive.google.com/file/d/1y3cW-3GMIGsuXvj2z32pBUjBiRRQzMwg/view?usp=sharing",
+      "https://divyam-goyal-resume.tiiny.site",
     linkedin: "https://www.linkedin.com/in/divyam-goyal-792410175/",
     
   };
